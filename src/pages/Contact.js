@@ -20,7 +20,7 @@ const Contact = props => {
             <p>That's the itch to click one of the links below and contact me.</p>
             <Container className="contact-links vertical-align tp-3">
                 <Row className="tp-3 row-1">
-                    <Col classname="contact">
+                    <Col>
                         <Image src={blob2} className="animate" />
                         <Image src={blob4} className="animate2" />
                         <Image src={blob4} className="animate3" />
@@ -28,7 +28,7 @@ const Contact = props => {
                             <a href="mailto:essleeung@gmail.com" className="text"><DraftsRounded /> Email</a>
                         </div>
                     </Col>
-                    <Col classname="contact">
+                    <Col>
                         <Image src={blob} className="animate" />
                         <Image src={blob3} className="animate2" />
                         <Image src={blob3} className="animate3" />
@@ -41,7 +41,7 @@ const Contact = props => {
                     </Col>
                 </Row>
                 <Row className="row-2">
-                    <Col classname="contact">
+                    <Col>
                         <Image src={blob} className="animate" />
                         <Image src={blob3} className="animate2" />
                         <Image src={blob3} className="animate3" />
@@ -49,7 +49,7 @@ const Contact = props => {
                             <a href="https://www.linkedin.com/in/sharonl1/" target="_blank" rel="noopener noreferrer" className="text"><LinkedIn /> LinkedIn</a>
                         </div>
                     </Col>
-                    <Col classname="contact2">
+                    <Col>
                         <Image src={blob2} className="animate" />
                         <Image src={blob4} className="animate2" />
                         <Image src={blob4} className="animate3" />
