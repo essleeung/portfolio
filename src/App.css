@@ -1,33 +1,153 @@
-.App {
+body, html {
+  height: 100%;
+}
+.max-vh {
+  height: 90vh;
+}
+/* home page styling */
+.top-banner {
+  position: absolute;
+  top: -5em;
+  max-width: 100%;
+  left: -11em;
+}
+
+.btm-banner {
+  max-width: 100%;
+  position: fixed;
+  top: 40%;
+  left: 5%;
+}
+/* TODO: add styling for mobile and tablet */
+.hero {
+  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.girl {
+  max-height: 80%;
+  float: right;
+  padding-right: 15%;
+}
+.middle {
+  /* position: absolute;
+  top: 50%; */
+  transform: translate(0%, 50%);
+}
+.title {
+  padding: 2em;
+  text-transform: uppercase;
+  text-align: left;
+}
+.tp-3 {
+  padding-top: 3em;
+}
+.contact-blob {
+  position: absolute;
+  top: -34em;
+  max-width: 100%;
+  left: -5em;
+  z-index: -1;
+}
+
+/* contact page styling */
+/* Blob animations */
+.contact {
+  position: relative;
+  padding-left: 10%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.animate {
+	animation: rotate 5s linear infinite;
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	transition: 0.3s linear;
 }
-/* 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 95vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.animate2 {
+  animation: rotate 5s linear infinite;
+	position: absolute;
+	height: 240px;
+  width: 240px;
+	opacity: 0.5;
+	transition: 0.3s linear;
+}
+
+.animate3 {
+  animation: rotate2 5s linear infinite;
+	position: absolute;
+	opacity: 0.5;
+	height: 240px;
+	width: 240px;
+  transition: 0.3s linear;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes rotate2 {
+	0% {
+		transform: rotate(0deg);
+	}
+	
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+
+.twitter-embed {
+  overflow-y: scroll;
+  max-height: 60vh;
+}
+
+.text:hover, .text2:hover {
   color: white;
+  text-decoration: none;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 250px;
+  width: 250px;
+}
+.text{
+  position: absolute;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.App-link {
-  color: #61dafb;
+.row-1, .row-2 {
+  height: 300px !important;
 }
 
-.nav-link{
-  color: white;
+/* resume page styling */
+.plants {
+  max-width: 85%;
+  position: absolute;
+  bottom: 15em; 
+}
+.resume {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 4em;
+}
+.resume a:visited, a:focus, a:active {
+  color: #8C52FF;
+}
+.resume a:hover {
+  color: #FF914D;
 }
