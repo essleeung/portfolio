@@ -21,6 +21,7 @@ const Projects = props => {
                             <h3>Codenames</h3>
                             <p className="abt">online version of the award-winning board game with real-time bi-directional streaming of moves for players</p>
                             <p className="tech">Bootstrap, Express, JavaScript, Node.js, Socket.io</p>
+                            <br/>
                             <p><a href="http://codenames-ga.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a> | <a href="https://github.com/essleeung/codenames" target="_blank" rel="noopener noreferrer">Code</a></p>
                         </div>
                     </div>

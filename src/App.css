@@ -247,6 +247,7 @@ body, html {
   .middle {
     transform: translate(0%, 7%);
 }
+
 }
 
 /* Landscape phones and down */
@@ -261,7 +262,7 @@ body, html {
     height: 100%;
   }
   .resume {
-    margin-bottom: 12em;
+    margin-bottom: 20em;
   }
   section {
     display: none;
