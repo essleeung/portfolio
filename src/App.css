@@ -223,12 +223,21 @@ body, html {
   font-weight: 700;
 }
 
-/* Portrait tablet and small desktops */
+/* ipad pro*/
 @media (max-width: 1024px) {
+  .btm-container {
+    top: 200px;
+  }
+  .middle {
+    transform: translate(0%, 7%);
+}
+} 
+/* Portrait tablet and small desktops*/
+@media (max-width: 960px) {
   .btm-container {
     display: none;
   }
-}
+} 
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
@@ -259,4 +268,4 @@ body, html {
     margin-top: -6em;
   }
   
-}
+} 

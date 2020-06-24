@@ -13,11 +13,11 @@ const Banner = props => {
         <Row xs={1}>
           <Image src={topblobs} className="top-banner"/>
         </Row>
-        <Row className="middle"xs={1}>
-          <Col xs={{order: 1}} md={{order: 2}}>
+        <Row className="middle" xs={1}>
+          <Col xl={{order:1}}>
             <Image src={girl} className="girl"/>
           </Col>
-          <Col xs={{order: 2}} md={{order: 1}}>
+          <Col xl={{order:2}}>
           <p className="title">Welcome to my portfolio</p>
           <Image src={name} className="name"/>
           <p className="title">Full Stack Dev | Scrum Master</p>
