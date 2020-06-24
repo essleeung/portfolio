@@ -45,7 +45,7 @@ const Projects = props => {
                             <p className="abt">Animal Crossing catalogue party platform</p>
                             <p className="tech">Express, JavaScript, JWT, Mongoose, MongoDB, Node.js, React, React Semantic UI, Typescript   </p>
                             <p>demo account: wilbur@dodo.com | <em>wilburtest</em></p>
-                            <p><a href="https://dodoswap.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a> | <a href="https://github.com/essleeung/dodo-swap" target="_blank" rel="noopener noreferrer">Code</a></p>
+                            <p><a href="http://dodoswap.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a> | <a href="https://github.com/essleeung/dodo-swap" target="_blank" rel="noopener noreferrer">Code</a></p>
                         </div>
                     </div>
                 </div>

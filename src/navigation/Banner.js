@@ -10,20 +10,20 @@ import name from '../assets/name.png'
 const Banner = props => {
     return (
       <Container fluid className="hero">
-        <Row>
+        <Row xs={1}>
           <Image src={topblobs} className="top-banner"/>
         </Row>
-        <Row className="middle">
-          <Col>
+        <Row className="middle"xs={1}>
+          <Col xs={{order: 1}}>
             <Image src={girl} className="girl"/>
           </Col>
-          <Col>
+          <Col xs={{order: 2}}>
           <p className="title">Welcome to my portfolio</p>
           <Image src={name} className="name"/>
           <p className="title">Full Stack Dev | Scrum Master</p>
           </Col>
         </Row>
-        <Row>
+        <Row className="btm-container">
           <Image src={bottomblob} className="btm-banner"/>
         </Row>
       </Container>

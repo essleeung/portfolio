@@ -11,14 +11,15 @@ body, html {
   max-width: 100%;
   left: -11em;
 }
-
+.btm-container {
+  position: relative;
+}
 .btm-banner {
   max-width: 100%;
-  position: fixed;
-  top: 40%;
-  left: 5%;
+  position: absolute;
+  top: 0;
+  left: 2;
 }
-/* TODO: add styling for mobile and tablet */
 .hero {
   min-height: 100vh;
   height: 100vh;
@@ -31,8 +32,6 @@ body, html {
   padding-right: 15%;
 }
 .middle {
-  /* position: absolute;
-  top: 50%; */
   transform: translate(0%, 50%);
 }
 .title {
@@ -131,21 +130,38 @@ body, html {
 }
 
 /* resume page styling */
-.plants {
-  max-width: 85%;
+.abt-wrapper {
+  position: relative;
+}
+.abt-text {
   position: absolute;
-  bottom: 15em; 
+  left: 1em;
+  top: 1em;
+  padding-left: 2.5em;
 }
-.resume {
-  text-transform: uppercase;
+.abt-img {
+  width: 15%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.about {
+  width: 80%;
+  margin: 0 auto;
+}
+.resume, .tech {
   text-align: center;
-  padding: 4em;
+  padding-top: 2em;
+  width: 80%;
+  margin: 0 auto;
+
 }
-.resume a:visited, a:focus, a:active {
+.resume a:visited, a:focus, a:active, a{
   color: #8C52FF;
+  text-transform: uppercase;
 }
 .resume a:hover {
   color: #FF914D;
+  text-transform: uppercase;
 }
 /* project page styling */
 
@@ -186,11 +202,59 @@ body, html {
   text-align: center;
 }
 .desc a:visited, .desc a:focus {
-  color: white;
+  color: white !important;
 }
 .desc a:hover {
   font-weight: 700;
 }
 .projects {
   margin-bottom: 6em;
+}
+.purple {
+  color: #8C52FF;
+  font-weight: 700;
+}
+.mint {
+  color: #76CCCF;
+  font-weight: 700;
+}
+.orange {
+  color: #FF914D;
+  font-weight: 700;
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .middle {
+    transform: translate(2%, 2%)
+}
+  .abt-text {
+    top: 0em;
+}
+  .abt-wrapper {
+    height: 100%;
+  }
+  .resume {
+    margin-bottom: 12em;
+  }
+  section {
+    display: none;
+  }
+  .contact-links {
+    margin-left: -2em;
+    margin-top: -6em;
+    z-index: 100;
+  }
+  .animate, .animate2, .animate3 {
+    /* display: none; */
+  }
 }
