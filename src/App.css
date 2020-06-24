@@ -224,12 +224,17 @@ body, html {
 }
 
 /* Portrait tablet and small desktops */
-@media (max-width: 940px) {
+@media (max-width: 1024px) {
+  .btm-container {
+    display: none;
+  }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-
+  .middle {
+    transform: translate(0%, 7%);
+}
 }
 
 /* Landscape phones and down */
