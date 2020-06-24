@@ -252,9 +252,6 @@ body, html {
   .contact-links {
     margin-left: -2em;
     margin-top: -6em;
-    z-index: 100;
   }
-  .animate, .animate2, .animate3 {
-    /* display: none; */
-  }
+  
 }
