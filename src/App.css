@@ -8,14 +8,16 @@ body, html {
 .top-banner {
   position: absolute;
   top: -5em;
-  max-width: 100%;
+  max-width: 1920px;
+  width: 100%;
   left: -11em;
 }
 .btm-container {
   position: relative;
 }
 .btm-banner {
-  max-width: 100%;
+  max-width: 1920px;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 2;
@@ -206,6 +208,7 @@ body, html {
 }
 .desc a:hover {
   font-weight: 700;
+  color: white !important;
 }
 .projects {
   margin-bottom: 6em;
