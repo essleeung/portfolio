@@ -166,11 +166,14 @@ body, html {
 }
 .resume a:visited, a:focus, a:active, a{
   color: #8C52FF;
+  font-weight: 700;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .resume a:hover {
-  color: #FF914D;
+  color: #76CCCF;
   text-transform: uppercase;
+  text-decoration: none;
 }
 /* project page styling */
 
