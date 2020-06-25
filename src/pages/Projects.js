@@ -15,7 +15,7 @@ const Projects = props => {
             <h1>Projects</h1>
             <Row className="wrapper tp-3">
                 <div className="wrap">
-                    <Image src={codenames} className="image" />
+                    <Image src={codenames} className="image" alt="screenshot of codenames project on macbook"/>
                     <div className="overlay2">
                         <div className="desc">
                             <h3>Codenames</h3>
@@ -27,7 +27,7 @@ const Projects = props => {
                     </div>
                 </div>
                 <div className="wrap">
-                    <Image src={aloe} className="image" />
+                    <Image src={aloe} className="image" alt="screenshot of aloe there project on macbook"/>
                     <div className="overlay2">
                         <div className="desc">
                             <h3>aloe there</h3>
@@ -39,7 +39,7 @@ const Projects = props => {
                     </div>
                 </div>
                 <div className="wrap">
-                    <Image src={dodo} className="image" />
+                    <Image src={dodo} className="image" alt="screenshot of dodoswap project on macbook"/>
                     <div className="overlay2">
                         <div className="desc">
                             <h3>Dodo Swap</h3>
@@ -51,7 +51,7 @@ const Projects = props => {
                     </div>
                 </div>
                 <div className="wrap">
-                    <Image src={tasty} className="image" />
+                    <Image src={tasty} className="image" alt="screenshot of tastyroots project on macbook"/>
                     <div className="overlay2">
                         <div className="desc">
                             <h3>Tasty Roots</h3>

@@ -11,20 +11,20 @@ const Banner = props => {
     return (
       <Container fluid className="hero">
         <Row xs={1}>
-          <Image src={topblobs} className="top-banner"/>
+          <Image src={topblobs} className="top-banner" alt="decorative shapes"/>
         </Row>
         <Row className="middle" xs={1}>
           <Col xl={{order:1}}>
-            <Image src={girl} className="girl"/>
+            <Image src={girl} className="girl" alt="illustrative girl propping up head"/>
           </Col>
           <Col xl={{order:2}}>
           <p className="title">Welcome to my portfolio</p>
-          <Image src={name} className="name"/>
+          <Image src={name} className="name"alt="sharon lee name logo"/>
           <p className="title">Full Stack Dev | Scrum Master</p>
           </Col>
         </Row>
         <Row className="btm-container">
-          <Image src={bottomblob} className="btm-banner"/>
+          <Image src={bottomblob} className="btm-banner" alt="decorative shapes"/>
         </Row>
       </Container>
     )

@@ -10,9 +10,9 @@ import pdf from '../assets/sharon_lee_resume.pdf'
 
 const About = props => {
     return (
-        <Container className="tp-3">
+        <Container className="tp-3 max-vh">
             <div className="abt-wrapper">
-            <Image src={about} className="abt-img"/>
+            <Image src={about} className="abt-img" alt="decorative shapes"/>
             <h1 className="abt-text">About</h1>
             </div>
             <div className="about">

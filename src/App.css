@@ -35,6 +35,8 @@ body, html {
 }
 .middle {
   transform: translate(0%, 50%);
+  -webkit-transform: translate(0%, 50%);
+  -ms-transform: translate(0%, 50%);
 }
 .title {
   padding: 2em;
@@ -126,7 +128,12 @@ body, html {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
+.btn-link {
+  text-decoration: none;
+}
+#popover-contained {
+  background-color: mintcream;
+}
 .row-1, .row-2 {
   height: 300px !important;
 }
@@ -258,9 +265,9 @@ body, html {
   .abt-text {
     top: 0em;
 }
-  .abt-wrapper {
+  /* .abt-wrapper {
     height: 100%;
-  }
+  } */
   .resume {
     margin-bottom: 20em;
   }
