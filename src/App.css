@@ -239,7 +239,7 @@ body, html {
 
 /*HOME IMAGE & MEDIA QUERIES*/
 .home-desktop { 
-  background-image: url(../src/assets/desktop-2@2x.png);
+  background-image: url(../src/assets/desktop-1@2x.png);
   background-size: cover;
   background-position:0 10%;
   height: 100vh;
