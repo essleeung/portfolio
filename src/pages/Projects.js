@@ -56,7 +56,7 @@ const Projects = props => {
                         <div className="desc">
                             <h3>Tasty Roots</h3>
                             <p className="abt">Family Recipe Sharing Platform</p>
-                            <p className="tech">Express, JavaScript, JWT, Mongoose, MongoDB, Node.js, React, React Semantic UI, Redux   </p>
+                            <p className="tech">Cloudinary Upload Widget, Express, JavaScript, JWT, Mongoose, MongoDB, Node.js, React, React Semantic UI, Redux   </p>
                             <p>demo account: tasty@roots.com | <em>tastyroots</em></p>
                             <p><a href="http://tasty-roots-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a> | <a href="https://github.com/essleeung/prj4-tastyroots-client" target="_blank" rel="noopener noreferrer">Code</a></p>
                         </div>
