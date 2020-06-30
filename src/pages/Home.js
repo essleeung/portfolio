@@ -1,9 +1,10 @@
 import React from 'react';
-import Banner from '../navigation/Banner'
+import Banner2 from '../navigation/Banner2'
+
 
 const Home = props => {
     return (
-        <Banner />
+        <Banner2 />
     )
 }
 

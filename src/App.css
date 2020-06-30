@@ -236,41 +236,53 @@ body, html {
   font-weight: 700;
 }
 
-/* ipad pro*/
-@media (max-width: 1024px) {
-  .btm-container {
-    top: 200px;
-  }
-  .middle {
-    transform: translate(0%, 7%);
+
+/*HOME IMAGE & MEDIA QUERIES*/
+.home-desktop { 
+  background-image: url(../src/assets/desktop-2@2x.png);
+  background-size: cover;
+  background-position:0 10%;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
 }
+
+/* ipad pro 12.9*/
+@media (max-width: 1024px) {
+  .home-desktop {
+    background-image: url(../src/assets/ipad-1.png);
+    background-position: center;
+  }
+
 } 
 /* Portrait tablet and small desktops*/
 @media (max-width: 960px) {
-  .btm-container {
+  /* .btm-container {
     display: none;
+  } */
+  .home-desktop {
+    background-image: url(../src/assets/iPad-small.png);
   }
 } 
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-  .middle {
-    transform: translate(0%, 7%);
+.home-desktop {
+  background-image: url(../src/assets/iPad-small.png);
+
 }
 
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  .middle {
-    transform: translate(2%, 2%)
-}
+
   .abt-text {
     top: 0em;
 }
-  /* .abt-wrapper {
-    height: 100%;
-  } */
   .resume {
     margin-bottom: 20em;
   }
@@ -281,5 +293,11 @@ body, html {
     margin-left: -2em;
     margin-top: -6em;
   }
+  .home-desktop {
+    background-image: url(../src/assets/phone.png);
+    background-position: right top;
+  }
   
 } 
+
+
