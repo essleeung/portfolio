@@ -144,9 +144,8 @@ body, html {
 }
 .abt-text {
   position: absolute;
-  left: 1em;
-  top: 1em;
-  padding-left: 2.5em;
+  top: 5%;
+  left: 12%;
 }
 .abt-img {
   width: 15%;
@@ -272,14 +271,14 @@ body, html {
 @media (max-width: 768px) {
 .home-desktop {
   background-image: url(../src/assets/iPad-small.png);
-
 }
-
+/* section {
+  display: none;
+} */
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-
   .abt-text {
     top: 0em;
 }
