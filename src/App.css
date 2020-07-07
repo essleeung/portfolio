@@ -234,7 +234,11 @@ body, html {
   color: #FF914D;
   font-weight: 700;
 }
-
+.msg {
+  color: #8C52FF;
+  font-weight: 700;
+  padding-left: 2em;
+}
 
 /*HOME IMAGE & MEDIA QUERIES*/
 .home-desktop { 
