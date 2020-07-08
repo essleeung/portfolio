@@ -10,7 +10,7 @@ import pdf from '../assets/sharon_lee_resume.pdf'
 
 const About = props => {
     return (
-        <Container className="tp-3 max-vh">
+        <Container className="tp-3">
             <div className="abt-wrapper">
             <Image src={about} className="abt-img" alt="decorative shapes"/>
             <h1 className="abt-text">About</h1>
@@ -50,7 +50,7 @@ const About = props => {
                     </tr>
                 </Table>
             </div>
-            <div className="resume">
+            <div className="resume tb-5">
             <h3>Resume</h3>
                 <a href={pdf} target="_blank" rel="noopener noreferrer"><Visibility />View    </a><a href={pdf} target="_blank" rel="noopener noreferrer" download><GetApp />Download</a>
             </div>

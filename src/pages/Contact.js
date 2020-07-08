@@ -17,10 +17,10 @@ const Contact = props => {
         <Container className="tp-3 max-vh">
             <Image src={contact} className="contact-blob" alt="decorative shapes" />
             <h1>Feel that <strong>tingling</strong> in your fingertips?</h1>
-            <p>That's the itch to click one of the links below and contact me.</p>
+            <p>That's the itch to drop me a note via the form below <em>[essleeung@gmail.com]</em> or check out one of the other links.</p>
             <Container className="contact-links vertical-align">
                 <Row className="tp-3">
-                    <Col xl={8} l={2}>
+                    <Col xl={8} md={6} xs={12} className="mobile">
                         <ContactForm />
                         <Row>
                             <Col>
@@ -41,7 +41,7 @@ const Contact = props => {
                             </Col>
                         </Row>
                     </Col>
-                    <Col xl={4} l={4}>
+                    <Col xl={4} md={6} xs={12}>
                         <TwitterContainer />
                     </Col>
                 </Row>

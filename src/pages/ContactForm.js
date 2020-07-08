@@ -22,7 +22,7 @@ const ContactForm = props => {
 
     return (
 
-            <Form id="contact-form" onSubmit={sendEmail} method="POST" >
+            <Form id="contact-form" onSubmit={sendEmail} method="POST">
                 <Form.Group>
                     <label htmlFor="name">Name</label>
                     <input type="text" className="form-control" name="senderName" />
