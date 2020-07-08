@@ -22,7 +22,7 @@ const Contact = props => {
                 <Row className="tp-3">
                     <Col xl={8} md={6} xs={12} className="mobile">
                         <ContactForm />
-                        <Row>
+                        <Row className="tp-3">
                             <Col>
                                 <Image src={blob} className="animate" alt="spinning blob animation" />
                                 <Image src={blob3} className="animate2" alt="spinning blob animation" />
