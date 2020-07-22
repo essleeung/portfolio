@@ -36,7 +36,7 @@ const ContactForm = props => {
                     <textarea className="form-control" rows="5" name="message"></textarea>
                 </Form.Group>
                 <Form.Group>
-                    <button type="submit" className="btn btn-outline-info">Submit</button>
+                    <button type="submit" className="btn my-btn">Submit</button>
                     <span className="msg">{message} </span>
                 </Form.Group>
             </Form>
