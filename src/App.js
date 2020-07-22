@@ -9,7 +9,7 @@ import SocialMedia from './navigation/SocialMedia'
 function App() {
   return (
     <Router>
-      <SocialMedia />
+      <SocialMedia className="sc-container"/>
       <Content />
       <NavBottom />
     </Router>
