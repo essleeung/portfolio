@@ -153,10 +153,12 @@ nav a:hover {
 }
 .abt-text {
   position: absolute;
+  display: inline-block;
   top: 5%;
   left: 12%;
 }
 .abt-img {
+  display: inline-block;
   width: 15%;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -303,6 +305,7 @@ nav a:hover {
 @media (max-width: 480px) {
   .abt-text {
     margin-top: -0.2em;
+    margin-bottom: 5px;
 }
   .resume {
     margin-bottom: 20em;
