@@ -154,6 +154,7 @@ nav a:hover {
 .abt-text {
   position: absolute;
   display: inline-block;
+  top: 5%;
   left: 12%;
 }
 .abt-img {
@@ -292,9 +293,6 @@ nav a:hover {
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-  .abt-text {
-    margin-top: -10px !important;
-  }
 .home-desktop {
   background-image: url(../src/assets/iPad-small.png);
 }
@@ -306,7 +304,7 @@ nav a:hover {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .abt-text {
-    margin-top: -10px !important;
+    margin-top: 0 !important;
   }
   .resume {
     margin-bottom: 20em;
