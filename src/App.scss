@@ -304,7 +304,7 @@ nav a:hover {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .abt-text {
-    margin-top: 0 !important;
+    margin-top: -10px !important;
   }
   .resume {
     margin-bottom: 20em;
