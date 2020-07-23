@@ -61,6 +61,42 @@ nav a:hover {
   float: right;
 }
 //wave animation
+div.waves{
+  width: 100%;
+  top: -18%;
+  position: absolute;
+  z-index: -1;
+}
+#wave-svg{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  animation-name: move-left;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transform: scale(1, -1);
+}
+.spacer{
+  height: 100px;
+  width: 100%;
+}
+
+@keyframes example {
+  0%   {
+    left:0px;
+    top:0px;}
+  
+  50%  {
+    left:-2000px;
+    top:200px;}
+  
+  100% {
+    left:0px; 
+    top:0px;}
+}
+
 
 .contact-container {
   position: absolute;
@@ -123,6 +159,7 @@ nav a:hover {
     }
 }
 .social div {
+  background-color: whitesmoke;
   .icon-social {
     color: $secondary-color;
     &:hover, :visited {
@@ -232,7 +269,7 @@ nav a:hover {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.desc a:visited, .desc a:focus {
+.desc a:visited, .desc a:focus, .desc a {
   color: white !important;
 }
 .desc a:hover {
