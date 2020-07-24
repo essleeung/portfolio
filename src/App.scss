@@ -319,12 +319,18 @@ div.waves{
   .contact-container {
     top: 5%;
   }
+  div.waves {
+    top: -4%;
+  }
 
 } 
 /* Portrait tablet and small desktops*/
 @media (max-width: 960px) {
   .home-desktop {
     background-image: url(../src/assets/iPad-small.png);
+  }
+  div.waves {
+    top: -7%;
   }
 } 
 
@@ -333,8 +339,11 @@ div.waves{
 .home-desktop {
   background-image: url(../src/assets/iPad-small.png);
 }
-.sc-container, .social, .wave {
+.sc-container, .social {
   display: none;
+}
+div.waves {
+  top: -6%;
 }
 }
 
@@ -351,7 +360,7 @@ div.waves{
   }
   .contact-links {
     margin-left: -2em;
-    margin-top: -6em;
+    margin-top: -4em;
   }
   .home-desktop {
     background-image: url(../src/assets/phone.png);
@@ -364,7 +373,10 @@ div.waves{
   .sc-container, .social, .wave {
     display: none;
 }
-
+  div.waves {
+    top: -5%;
+  }
+  
 } 
 
 
