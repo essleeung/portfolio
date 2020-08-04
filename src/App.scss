@@ -150,6 +150,7 @@ div.waves{
   justify-content: center;
   align-content: space-between;
   font-size: 1.25em;
+  box-shadow: 2px 2px 5px grey;
     a {
       color: $secondary-color;
     }
@@ -162,9 +163,10 @@ div.waves{
   background-color: whitesmoke;
   .icon-social {
     color: $secondary-color;
-    &:hover, :visited {
+    &:hover, :visited, a:hover, a:visited {
       color: $primary-color;
       transform: scale(1.2);
+      text-decoration: none;
     }
   }
   margin: 0 auto;
